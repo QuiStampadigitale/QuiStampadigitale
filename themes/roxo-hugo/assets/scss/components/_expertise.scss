@@ -1,0 +1,26 @@
+.site-expertise{
+  padding: 100px 0;
+  background: $gray;
+  &-list{
+    padding: 0;
+    margin: 20px;
+    @include tablet{
+      text-align: center;
+      margin: 0;
+      margin: 40px;
+    }
+    li{
+      list-style: none;
+      font-size: 25px;
+      font-weight: 300;
+      color: $text-color-dark;
+      &:not(:last-child){
+        margin-bottom: 10px;
+      }
+    }
+    p{
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+}

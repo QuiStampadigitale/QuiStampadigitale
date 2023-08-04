@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+<section class="site-project-single-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="site-project-single">
+          <h1>
+            {{ .Title }}
+          </h1>
+	        <div class="site-project-single-image">
+            {{ range .Params.project_images }}
+            <img class="mt-3" src="{{ . | absURL }}" alt="project image">
+            {{ end }}
+	          {{ range .Params.project_video }}
+
+            <div class="row justify-content-center">
+              <div class="col">
+                <video class="mt-3" width="100%" controls>
+                        <source src="{{ . | absURL }}" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+              Video non supportato
+                </video>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          
+
+          <div class="site-project-single-description">
+            {{ .Content }}
+          </div>
+          
+          {{ if .NextInSection }}
+          <div class="site-project-single-action">
+            <a href="{{.NextInSection.Permalink}}">
+              <span class="link-area">
+                <span data-text="Prossimo progetto">
+                  Prossimo progetto
+                </span>
+              </span>
+              <img src="{{ "images/to-top.svg" | absURL }}" alt="Prossimo progetto">
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "call-to-action.html" . }}
+
+{{ end }}

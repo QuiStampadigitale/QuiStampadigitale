@@ -1,0 +1,100 @@
+baseURL       = "https://quistampadigitale.com/" 
+languageCode  = "en-us"
+title         = "QuiStampaDigitale"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Chi siamo"
+    url     = "about"
+    weight  = 3
+  [[menu.nav]]
+    name    = "I nostri lavori"
+    url     = "portfolio"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Contatti e Orari"
+    url     = "contact"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Richiedi un preventivo"
+    url     = "https://forms.gle/RXSBB7LLeEXkB3R88"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/projects/LOGO.pdf"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "QuiStampaDigitale.com"
+  author = ""
+
+  
+
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = false
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/bg2.jpg"
+    heading               = "Qui Stampadigitale"
+    tagline               = "TIPOGRAFIA DIGITALE"
+    primary_button        = "I nostri lavori"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Preventivo"
+    secondary_button_url  = "https://forms.gle/RXSBB7LLeEXkB3R88"
+
+  [params.portfolio]
+    enable    = true
+    title     = "Le nostre competenze"
+    subtitle  = "con più di 30 anni di esperienza nel settore grafico"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contatti"
+      address = "Via Montello, 39E<br>31100 Treviso TV<br>Italia"
+      phone   = "0422 194 1583"
+      email   = "quistampadigitale@gmail.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Il nostro sito"
+        [[params.footer.sitemap.link]]
+          name = "I nostri lavori"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Chi siamo"
+          url  = "about"
+        
+        [[params.footer.sitemap.link]]
+          name = "Contatti e Orari"
+          url  = "contact"
+        [[params.footer.sitemap.link]]
+          name = "Richiedi un preventivo"
+          url  = "https://forms.gle/RXSBB7LLeEXkB3R88"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/quistampadigitale/"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/qui_stampadigitale/"
+      # Footer Service
+      [params.footer.service]
+        title       = "Orari:"
+        description = "<tr><th>lun:&emsp;</th><th>09:00–12:30, 15:00–18:30</th></tr><tr><th>mar:&emsp;</th><th>09:00–12:30, 15:00–18:30</th></tr><tr><th>mer:&emsp;</th><th>09:00–12:30, 15:00–18:30</th>	</tr><tr><th>gio:&emsp;</th><th>09:00–12:30, 15:00–18:30</th></tr><tr><th>ven:&emsp;</th><th>09:00–12:30, 15:00–18:30</th></tr><tr><th>sab:&emsp;</th><th>Chiuso</th></tr><tr><th>dom:&emsp;</th>	<th>Chiuso</th></tr>"
