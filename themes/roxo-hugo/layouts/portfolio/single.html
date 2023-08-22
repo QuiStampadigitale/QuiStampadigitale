@@ -5,9 +5,7 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <div class="site-project-single">
-          <h1>
-            {{ .Title }}
-          </h1>
+          <!--<h1> {{ .Title }} </h1>-->
 	        <div class="site-project-single-image">
             {{ range .Params.project_images }}
             <img class="mt-3" src="{{ . | absURL }}" alt="project image">
@@ -26,10 +24,11 @@
             {{ end }}
           </div>
           
-
+          <!--
           <div class="site-project-single-description">
             {{ .Content }}
           </div>
+        -->
           
           {{ if .NextInSection }}
           <div class="site-project-single-action">

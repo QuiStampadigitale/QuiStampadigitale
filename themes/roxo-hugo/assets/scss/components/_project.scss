@@ -1,5 +1,6 @@
 .site-project{
-  padding: 120px 0;
+  padding-bottom: 120px;
+  padding-top: 30px;
   overflow: hidden;
   &-item{
     position: relative;
@@ -21,7 +22,7 @@
       position: absolute;
       background: $gray;
       width: 100%;
-      padding: 15px 30px;
+      padding: 10px 30px;
       bottom: 0;
       transition: all .3s $site-ease;
       
@@ -71,7 +72,7 @@
         }
         
         
-          padding-bottom: 45px;
+          padding-bottom: 20px;
         
           
         

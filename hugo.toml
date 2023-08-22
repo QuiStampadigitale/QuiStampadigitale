@@ -51,7 +51,7 @@ summarylength = 25
     enable                = true
     background_image      = "images/backgrounds/bg2.jpg"
     heading               = "Qui Stampadigitale"
-    tagline               = "TIPOGRAFIA DIGITALE"
+    tagline               = "TIPOGRAFIA DIGITALE STAMPERIA COPISTERIA"
     primary_button        = "I nostri lavori"
     primary_button_url    = "portfolio"
     secondary_button      = "Preventivo"
@@ -59,7 +59,7 @@ summarylength = 25
 
   [params.portfolio]
     enable    = true
-    title     = "Le nostre competenze"
+    title     = "Qui StampaDigitale"
     subtitle  = "con più di 30 anni di esperienza nel settore grafico"
 
   [params.footer]

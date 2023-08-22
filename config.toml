@@ -59,7 +59,7 @@ summarylength = 25
 
   [params.portfolio]
     enable    = true
-    title     = "Le nostre competenze"
+    title     = "Qui StampaDigitale"
     subtitle  = "con più di 30 di esperienza nel settore grafico"
 
   [params.footer]
