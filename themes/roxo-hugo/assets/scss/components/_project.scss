@@ -2,6 +2,11 @@
   padding-bottom: 120px;
   padding-top: 30px;
   overflow: hidden;
+  h2{
+    @include tablet{
+      font-size: 2em;
+    }
+  }
   &-item{
     position: relative;
     margin-bottom: 30px;
