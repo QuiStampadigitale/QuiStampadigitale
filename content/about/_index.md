@@ -33,8 +33,7 @@ expertise_sectors: ["Servizio di grafica", "Servizio di fotocopie e scansioni",
 "e tanto altro ancora..." ]
 
 extra: ["Stampa T-shirt e Felpe personalizzate
-con NUOVO SISTEMA DTF LUNGA DURATA DELLA STAMPA.","Vendita di cartucce compatibili 
-per stampanti."]
+con NUOVO SISTEMA DTF LUNGA DURATA DELLA STAMPA."]
 
 ---
 
