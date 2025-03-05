@@ -3,9 +3,9 @@ title: "Chi Siamo"
 date: 2023-07-22T18:19:33+06:00
 heading : "QUI STAMPADIGITALE."
 heading2: "CHI SIAMO E COSA FACCIAMO?"
-description : "Siamo una Tipografia digitale, stamperia e copisteria nata nel 2018 con più di 30 di esperienza nel settore grafico. Siamo nati per offrire ad aziende e a clienti privati un servizio a 360°. Investiamo ogni anno in attrezzature sempre più moderne per offrirvi standard qualitativi sempre più alti."
+description : "La nostra tipografia digitale è presente sul territorio dal 2018, ma la nostra esperienza affonda le radici in oltre 30 anni di lavoro nel settore della stampa. Con una passione per l’innovazione e la qualità, siamo riusciti a costruire una solida reputazione come punto di riferimento per privati e aziende in cerca di soluzioni di stampa avanzate e personalizzate."
 
-subtitle: "Stampiamo oltre che su carta anche su materiale plastico e su tessuto. Trattiamo inoltre anche il segmento vetrofanie o similari. Ormai da quando siamo presenti sul mercato abbiamo realizzato innumerevoli installazioni di allestimenti sia di interni che di esterni… vetrofanie, adesivi applicati a muro, loghi a rilievo sulle pareti, vi invitiamo di dare un’occhiata alla nostra gallery. Stampiamo su T-shirt e felpe o abbigliamento con nostra o vostra fornitura delle stesse in stampa diretta o con nuovo sistema di stampa DTF che garantisce una durata maggiore della stampa. Di seguito un piccolo elenco per illustrarvi solo qualche servizio e prodotto che trattiamo, anche se quello che offriamo è ben più ampio."
+subtitle: "Siamo una tipografia digitale e stamperia commerciale che offre soluzioni di stampa complete e personalizzate, pensate per soddisfare le esigenze di aziende, professionisti e privati. Specializzati in stampa su carta in piccolo e grande formato, realizziamo vetrofanie, etichette adesive, banner e molto altro, garantendo sempre qualità e precisione. Con servizi di finiture specializzate e tempi di consegna rapidi, siamo il partner ideale per chi cerca un servizio affidabile, versatile e su misura. La nostra missione è supportare le tue necessità di comunicazione visiva con soluzioni efficaci che ti permettano di distinguerti nel tuo settore."
 
 expertise_title: "Servizi e Prodotti"
 expertise_sectors: ["Servizio di grafica", "Servizio di fotocopie e scansioni",
